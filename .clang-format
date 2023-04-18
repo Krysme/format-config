@@ -1,6 +1,6 @@
-IndentWidth: 8
+IndentWidth: 4
 AlignConsecutiveDeclarations: true
 AlignConsecutiveAssignments: true
 BreakBeforeBraces: Linux
 IndentCaseLabels: false
-AccessModifierOffset: -8
+AccessModifierOffset: -4
