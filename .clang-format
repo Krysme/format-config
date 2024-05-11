@@ -1,6 +1,31 @@
 IndentWidth: 4
-AlignConsecutiveDeclarations: true
-AlignConsecutiveAssignments: true
-BreakBeforeBraces: Linux
 IndentCaseLabels: false
 AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: false
+
+
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+ AfterClass: true
+ AfterFunction: true
+ AfterControlStatement: false
+ AfterEnum: true
+ AfterNamespace: true
+ AfterObjCDeclaration: false
+ AfterStruct: true
+ AfterUnion: true
+ AfterExternBlock: true
+ BeforeCatch: true
+ BeforeElse: false
+ IndentBraces: false
+ SplitEmptyFunction: true
+ SplitEmptyRecord: true
+ SplitEmptyNamespace: true
+#
+AlwaysBreakTemplateDeclarations: Yes
+IncludeBlocks: Regroup
